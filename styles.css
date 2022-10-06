@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(49, 43, 43);
+  font-family: "Koulen", cursive;
+
+}
+hr {
+  border: none;
+  border-top: 30px solid rgb(203, 253, 67);
+  margin-bottom:  20px;
+
+}
+.status.table {
+  border: none;
+}
+
+.status.table th,td {
+  border: none;
+}
+
+.size40 {
+  font-size: 40px;
+}
+
+table {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto 30px;
+  color: white;
+  border: 1px solid whitesmoke;
+}
+
+td ,th {
+  border: 1px dotted yellowgreen;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.log {
+  color: yellow;
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  font-weight: bold;
+  color: red;
+}
+
+button {
+  text-align: center;
+  margin:  1px auto 2px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 23px;
+
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(99, 112, 99);
+}
